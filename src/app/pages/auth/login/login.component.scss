@@ -1,11 +1,15 @@
 .login-page {
+  display: flex;
+  align-items: center;
+  background-color: var(--light-background) !important;
   .heading {
     text-align: center;
   }
   .card {
     max-width: 500px;
-    margin: 4rem auto;
+    margin: auto;
     padding: 2rem;
+    flex: 1;
     .login-btn {
       width: 200px;
       margin: auto;

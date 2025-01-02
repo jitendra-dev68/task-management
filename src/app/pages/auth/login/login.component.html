@@ -1,14 +1,21 @@
-<div class="login-page">
+<div class="login-page h-100">
   <mat-card class="card" [formGroup]="loginForm">
     <h3 class="heading">Task Manager</h3>
     <mat-form-field>
-      <mat-label>Username</mat-label>
-      <input type="text" matInput formControlName="username" />
+      <mat-label>Email</mat-label>
+      <input type="email" matInput formControlName="email" />
     </mat-form-field>
     <mat-form-field>
       <mat-label>Password</mat-label>
       <input type="password" matInput formControlName="password" />
     </mat-form-field>
-    <button mat-flat-button class="login-btn">Login</button>
+    <button
+      mat-flat-button
+      class="login-btn"
+      (click)="login()"
+      [disabled]="loginForm.invalid"
+    >
+      Login
+    </button>
   </mat-card>
 </div>
