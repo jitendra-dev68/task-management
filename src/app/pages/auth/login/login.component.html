@@ -1,3 +1,14 @@
-<mat-card>
-  <p>login works!</p>
-</mat-card>
+<div class="login-page">
+  <mat-card class="card" [formGroup]="loginForm">
+    <h3 class="heading">Task Manager</h3>
+    <mat-form-field>
+      <mat-label>Username</mat-label>
+      <input type="text" matInput formControlName="username" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input type="password" matInput formControlName="password" />
+    </mat-form-field>
+    <button mat-flat-button class="login-btn">Login</button>
+  </mat-card>
+</div>
