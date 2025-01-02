@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Design Landing Page",
+    "description": "Create a responsive landing page for the website.",
+    "priority": "High",
+    "status": "Pending",
+    "dueDate": "2025-02-10",
+    "assignedTo": "John Doe",
+    "tags": ["UI", "Frontend"],
+    "createdAt": "2025-02-01",
+    "updatedAt": "2025-02-01"
+  },
+  {
+    "id": 2,
+    "name": "API Integration",
+    "description": "Integrate the backend API with the frontend application.",
+    "priority": "Medium",
+    "status": "In Progress",
+    "dueDate": "2025-02-12",
+    "assignedTo": "Jane Smith",
+    "tags": ["Backend", "API"],
+    "createdAt": "2025-02-02",
+    "updatedAt": "2025-02-03"
+  },
+  {
+    "id": 3,
+    "name": "Write Unit Tests",
+    "description": "Write comprehensive unit tests for all components.",
+    "priority": "Low",
+    "status": "Pending",
+    "dueDate": "2025-02-15",
+    "assignedTo": "Alice Johnson",
+    "tags": ["Testing", "QA"],
+    "createdAt": "2025-02-04",
+    "updatedAt": "2025-02-04"
+  },
+  {
+    "id": 4,
+    "name": "Database Optimization",
+    "description": "Optimize database queries for faster response times.",
+    "priority": "High",
+    "status": "Completed",
+    "dueDate": "2025-02-08",
+    "assignedTo": "Mark Lee",
+    "tags": ["Database", "Optimization"],
+    "createdAt": "2025-01-28",
+    "updatedAt": "2025-02-08"
+  },
+  {
+    "id": 5,
+    "name": "Create Documentation",
+    "description": "Prepare detailed project documentation for handover.",
+    "priority": "Medium",
+    "status": "In Review",
+    "dueDate": "2025-02-11",
+    "assignedTo": "Emily Davis",
+    "tags": ["Documentation", "Admin"],
+    "createdAt": "2025-02-01",
+    "updatedAt": "2025-02-05"
+  }
+]

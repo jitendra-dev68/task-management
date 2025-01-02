@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "role": "Developer",
+    "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "createdAt": "2025-01-01",
+    "updatedAt": "2025-02-01",
+    "tasksAssigned": [1, 3]
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "role": "Backend Developer",
+    "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "createdAt": "2025-01-15",
+    "updatedAt": "2025-02-02",
+    "tasksAssigned": [2]
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "role": "QA Engineer",
+    "profilePicture": "https://randomuser.me/api/portraits/women/3.jpg",
+    "createdAt": "2025-01-10",
+    "updatedAt": "2025-02-04",
+    "tasksAssigned": [3]
+  },
+  {
+    "id": 4,
+    "name": "Mark Lee",
+    "email": "mark.lee@example.com",
+    "role": "Database Administrator",
+    "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg",
+    "createdAt": "2025-01-05",
+    "updatedAt": "2025-02-08",
+    "tasksAssigned": [4]
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "role": "Project Manager",
+    "profilePicture": "https://randomuser.me/api/portraits/women/5.jpg",
+    "createdAt": "2025-01-20",
+    "updatedAt": "2025-02-05",
+    "tasksAssigned": [5]
+  }
+]
