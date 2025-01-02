@@ -6,4 +6,5 @@ export enum ColumnIds {
   DueDate = 'dueDate',
   AssignedTo = 'assignedTo',
   Tags = 'tags',
+  Action = 'actions',
 }
