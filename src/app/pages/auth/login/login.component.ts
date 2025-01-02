@@ -7,6 +7,8 @@ import { LoginForm } from './login.model';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from '../../../core/services/auth.service';
 import { map } from 'rxjs';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -24,7 +26,8 @@ import { map } from 'rxjs';
 export class LoginComponent {
   loginForm = LoginForm;
   private readonly _auth = inject(AuthService);
-
+  private readonly _snackBar = inject(MatSnackBar);
+  private readonly _router = inject(Router);
   login() {
     this._auth
       .login(this.loginForm.value)
@@ -36,7 +39,11 @@ export class LoginComponent {
           if (!user) {
             throw new Error('User not found');
           }
-          console.log('user: ', user);
+          this._snackBar.open('Login Success', 'OK', {
+            horizontalPosition: 'right',
+            verticalPosition: 'top',
+          });
+          this._router.navigateByUrl('home');
         })
       )
       .subscribe();
